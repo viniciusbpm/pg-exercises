@@ -63,8 +63,6 @@ select max(joindate) as latest from cd.members;
 select firstname, surname, joindate from cd.members
 where joindate = (select max(joindate) from cd.members);     
 
-// 13
-
 
 
 
